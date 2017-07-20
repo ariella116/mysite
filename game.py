@@ -68,7 +68,7 @@ def turn(state, letter):
 
     # if there are no more blank characters in guessed then we have won
     if '_' not in state['guessed']:
-        state['message'] = "You win, word was '%s'. You had %d turns left" % (
+        state['message'] = "You win, the word was '%s'. You had %d turns left" % (
             state['word'], MAX_ERRORS - state['errors'])
         state['chosen'] = LETTERS
 

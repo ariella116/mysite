@@ -10,4 +10,7 @@ def test_resetgame():
 def test_get_word():
     # get a value from the function choose_word in game
     # assert that it is equal to "jerusalem"
-    choose_word()
+    possible_words = ['jerusalem', 'dumpster', 'bus', 'chocolate',
+                      'morning', 'live', 'cats']
+    chosen_word = game.choose_word()
+    assert chosen_word in possible_words

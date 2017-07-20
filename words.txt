@@ -5,3 +5,8 @@ chocolate
 morning
 live
 cats
+wake up
+dance
+math
+dream
+run
